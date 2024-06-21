@@ -1,0 +1,11 @@
+{
+  "name": "matomo-co2js-demo",
+  "version": "1.0.0",
+  "description": "This page is a demonstration of how the [Performance Resource Timing API](https://developer.mozilla.org/en-US/docs/web/api/performanceresourcetiming) can be used with [CO2.js](https://github.com/thegreenwebfoundation/co2.js/tree/main) on a web page.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "author": "Fershad Irani",
+  "license": "ISC"
+}
