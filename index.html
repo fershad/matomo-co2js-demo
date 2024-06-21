@@ -58,9 +58,9 @@ function estimateEmissions(pageWeight) {
             const pageWeight = getPageWeight();
             const estimateCO2e = estimateEmissions(pageWeight)
             console.log({estimateCO2e})
-            document.getElementById('co2-emissions').textContent = estimateCO2e.co2;
+            document.getElementById('co2-emissions').textContent = estimateCO2e.co2.toFixed(3);
        
-        window._mtm.push({'co2': estimateCO2e.co2});
+        window._mtm.push({'co2': estimateCO2e.co2.toFixed(3)});
     }, false);
 
     </script>
